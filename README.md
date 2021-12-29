@@ -21,4 +21,7 @@ $ export YOUTUBE_APIKEY="AIzaShogefugahogefugahogefugahogefugaho"
 
 # Display latest 100 videos URL.
 $ java -jar 1/target/youtube-fetch1-1.0.0.jar [search word] 
+
+# Display the posted within 3 days Japanese video top 10
+$ java -jar 2/target/youtube-fetch2-1.0.0.jar [search word] 
 ```
