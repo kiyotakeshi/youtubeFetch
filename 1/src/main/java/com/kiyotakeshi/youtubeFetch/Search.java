@@ -51,6 +51,8 @@ public class Search {
 
             search.setKey(apiKey);
             search.setQ(searchWord);
+            // @see https://developers.google.com/youtube/v3/docs/search/list#order
+            search.setOrder("date");
 
             // Restrict the search results to only include videos.
             // @see https://developers.google.com/youtube/v3/docs/search/list#type
